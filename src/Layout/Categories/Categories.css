@@ -1,0 +1,11 @@
+.categories {
+    padding: 12px 20px 10vh 20px;
+}
+
+.more-categories {
+    width: 100%;
+    padding: 16px 0 12px 0;
+    text-align: left;
+    font-size: .9rem;
+    font-family: 'Nunita Sans', sans-serif;
+}

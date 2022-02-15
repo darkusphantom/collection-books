@@ -1,0 +1,15 @@
+.categoryList {
+  display: flex;
+  flex-direction: column;
+}
+
+.categoryList i {
+  position: absolute;
+  left: 0;
+}
+
+.btn-category-container {
+  padding: 16px 0 10px 24px;
+  border-bottom: 1px solid var(--gray);
+  position: relative;
+}

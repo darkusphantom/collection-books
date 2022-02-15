@@ -1,0 +1,18 @@
+.input-container {
+  width: 85%;
+  margin: 0 auto;
+  position: absolute;
+}
+.input-container button {
+  padding:0;
+  position: absolute;
+  top: 7px;
+}
+
+.btn-search {
+  left: 12px;
+}
+
+.btn-cancel {
+  right: 20px;
+}

@@ -1,0 +1,9 @@
+.input-search {
+  width: 100%;
+  height: 30px;
+  padding: 8px 10px 8px 42px;
+  border: none;
+  border-radius: 10px;
+  background: var(--gray);
+  color: var(--white);
+}

@@ -1,0 +1,12 @@
+.book {
+  width: 100px;
+  height: 100px;
+  background: gray;
+  border-radius: 10px;
+  margin: 0 5px;
+  overflow: hidden;
+	display: inline-block;
+	cursor: pointer;
+	transition: 450ms all;
+	transform-origin: center left;
+}

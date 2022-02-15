@@ -1,0 +1,7 @@
+.carousel-books {
+  grid-column: 1 / span 8;
+  grid-row: 3;
+  display: flex;
+  width: 100%;
+  overflow: scroll;
+}
