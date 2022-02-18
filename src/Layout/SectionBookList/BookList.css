@@ -1,6 +1,9 @@
 .bookList {
   display: grid;
   grid-template-columns: repeat(8,1fr);
-  margin-left: 20px;
   margin-bottom: 15px;
+}
+
+.bookList-home {
+  margin-left: 20px;
 }
