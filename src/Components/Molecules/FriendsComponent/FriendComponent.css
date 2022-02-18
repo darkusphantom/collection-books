@@ -1,0 +1,16 @@
+.friendsList,
+.friends-description {
+  display: flex;
+  justify-content: center;
+}
+.friends-title {
+  font-size: 1.3rem;
+}
+
+.friend {
+  margin: 0 4px;
+}
+
+.friends-description p {
+  margin: 10px;
+}

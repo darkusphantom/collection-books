@@ -1,0 +1,9 @@
+.profile-user {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-detail {
+  margin-left: 10px;
+}

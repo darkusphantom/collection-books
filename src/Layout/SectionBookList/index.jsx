@@ -4,7 +4,7 @@ import './BookList.css';
 
 const SectionBookList = (props) => {
   return(
-    <section className="bookList">
+    <section className={`bookList ${props.namepage}-page`}>
       <BookCarousel
         title={props.title}
         description={props.description}
