@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { Footer } from '../../Components/Molecules/Footer';
+import { Footer } from '../../Layout/Footer';
 
 const Goals = () => {
   return(

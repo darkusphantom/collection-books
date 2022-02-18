@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom'
 import { Icon } from '../../Atoms/Icon'
-import './Footer.css'
+import './LinksBtnFooter.css'
 
-const Footer = () => {
+const LinksBtnFooter = () => {
   return(
-    <section className="footer-page">
+    <Fragment>
       <Link to="/" className="footer-page-btn">
         <Icon icon="search">x</Icon>
       </Link>
@@ -18,8 +18,8 @@ const Footer = () => {
       <Link to="/profile" className="footer-page-btn">
         <Icon icon="user">x</Icon>
       </Link>
-    </section>
+    </Fragment>
   )
 }
 
-export { Footer };
+export { LinksBtnFooter };

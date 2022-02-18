@@ -1,17 +1,18 @@
 import React, { Fragment } from 'react';
+import { Header } from '../../Layout/Header';
 import { SearchInput } from '../../Components/Molecules/SearchInput';
 import { ProfileUser } from '../../Layout/ProfileUser';
 import { SectionBookList } from '../../Layout/SectionBookList';
 import { Friends } from '../../Layout/Friends';
-import { Footer } from '../../Components/Molecules/Footer';
+import { Footer } from '../../Layout/Footer';
 import './Profile.css';
 
 const Profile = () => {
   return(
     <Fragment>
-      <header className="header-page">
+      <Header>
         <SearchInput />
-      </header>
+      </Header>
       <div className="container">
         <ProfileUser />
         <SectionBookList

@@ -1,9 +1,10 @@
 import React, { Fragment } from 'react';
+import { Header } from '../../Layout/Header'
 import { SearchInput } from '../../Components/Molecules/SearchInput';
 import { SectionBookList } from '../../Layout/SectionBookList';
 import { Collections } from '../../Layout/Collections';
 import { Categories } from '../../Layout/Categories';
-import { Footer } from '../../Components/Molecules/Footer'
+import { Footer } from '../../Layout/Footer'
 import './Home.css'
 
 const sections = [
@@ -33,9 +34,9 @@ const sections = [
 const Home = () => {
   return (
     <Fragment>
-      <section className="container-input">
+      <Header>
         <SearchInput />
-      </section>
+      </Header>
       <section className="sectionBookList">
         {
           sections.map(
