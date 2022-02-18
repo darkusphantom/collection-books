@@ -32,6 +32,10 @@ button {
   background: none;
 }
 
+.container {
+  margin: 10vh 0 10vh 20px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

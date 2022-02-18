@@ -41,6 +41,7 @@ const Home = () => {
           sections.map(
             section => <SectionBookList
               key={section.id}
+              namepage="home"
               title={section.title}
               description={section.description}
             />
