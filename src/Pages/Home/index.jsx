@@ -34,7 +34,7 @@ const sections = [
 const Home = () => {
   return (
     <Fragment>
-      <Header>
+      <Header center={true}>
         <SearchInput />
       </Header>
       <section className="sectionBookList">

@@ -1,6 +1,5 @@
 .container-header {
   display: flex;
-  justify-content: center;
   align-items: center;
   background: var(--white);
   box-shadow: 0 -1px 4px #000;
@@ -8,4 +7,12 @@
   height: 50px;
   position: fixed;
   top: 0;
+}
+
+.header-center {
+  justify-content: center;
+}
+
+.header-left {
+  padding-left: 20px;
 }
