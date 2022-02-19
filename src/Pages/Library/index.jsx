@@ -1,10 +1,16 @@
 import React, { Fragment } from 'react';
-import { Footer } from '../../Components/Molecules/Footer';
+import { Header } from '../../Layout/Header'
+import { Footer } from '../../Layout/Footer';
+import { CollectionLibrary } from '../../Layout/CollectionLibrary';
+import './Library.css'
 
 const Library = () => {
   return(
     <Fragment>
-      <p>Library</p>
+      <Header center={false}>
+        <h2 className="page-name">Library</h2>
+      </Header>
+      <CollectionLibrary />
       <Footer />
     </Fragment>
   );

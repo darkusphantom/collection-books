@@ -1,0 +1,20 @@
+.library {
+  margin: 10vh 20px;
+}
+
+.collectionLibraryList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.collectionLibrary {
+  width: 150px;
+}
+
+.collectionLibrary-name {
+  width: 114px;
+  margin: 8px 0 0 7px;
+  font-size: .9rem;
+}

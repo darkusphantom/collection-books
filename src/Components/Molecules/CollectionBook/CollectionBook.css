@@ -1,0 +1,15 @@
+.container-collectionBook {
+  position: relative;
+}
+
+.container-collectionBook .book::after {
+  content: '';
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  background: #000;
+  position: absolute;
+  z-index: -1;
+  top: 8px;
+  left: 12px;
+}
