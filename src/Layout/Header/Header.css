@@ -16,3 +16,8 @@
 .header-left {
   padding-left: 20px;
 }
+
+.header-content-between {
+  padding: 20px;
+  justify-content: space-between;
+}

@@ -7,7 +7,7 @@ import './Library.css'
 const Library = () => {
   return(
     <Fragment>
-      <Header center={false}>
+      <Header center="left">
         <h2 className="page-name">Library</h2>
       </Header>
       <CollectionLibrary />
