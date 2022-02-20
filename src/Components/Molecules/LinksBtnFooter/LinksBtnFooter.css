@@ -1,7 +1,21 @@
 .footer-page-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   padding: 10px;
+  font-size: .8rem;
   text-decoration: none;
   text-align: center;
   cursor: pointer;
+}
+
+.footer-page-btn img[class^='icon-'] {
+  width: 20px;
+}
+
+
+.footer-page-btn p {
+  margin: 0;
 }

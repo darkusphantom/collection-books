@@ -3,10 +3,11 @@
   margin: 0 auto;
   position: absolute;
 }
+
 .input-container button {
   padding:0;
   position: absolute;
-  top: 7px;
+  top: 5px;
 }
 
 .btn-search {
@@ -15,4 +16,8 @@
 
 .btn-cancel {
   right: 20px;
+}
+
+.input-container img[class^='icon-'] {
+  width: 20px;
 }
