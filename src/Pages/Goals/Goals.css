@@ -1,0 +1,144 @@
+.container-goals {
+  width: 90%;
+  margin: 10vh auto;
+}
+
+.recordInWeek {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 36px;
+  border-bottom: 1px solid gray;
+}
+
+.yourListenToday {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+  height: 100px;
+}
+
+.yourListenToday p {
+  width: 60%;
+  margin: 0 0 4px;
+  font-size: 12px;
+}
+
+.listenToday {}
+
+.timeText {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.goalToday {}
+
+.progress-circle {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  background: #000;
+  display: grid;
+  place-items: center;
+}
+
+.progress-circle::after {
+  content: '';
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.yourListenInWeek {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.daysCompleted {
+  display: flex;
+  justify-content: center;
+  margin: 16px 0;
+}
+
+.daysCompleted li {
+  width: 26px;
+  height: 26px;
+  margin: 0 4px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.daysCompleted li.checked {
+  background: yellow;
+}
+
+.btn-changeGoal {
+  width: 100px;
+  align-self: flex-end;
+}
+
+
+.goodResults {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 28px;
+  border-bottom: 1px solid gray;
+}
+
+.text-goodResults {
+  margin: 16px 0;
+  font-size: .9rem;
+  text-align: center;
+}
+
+.goodResultsActually,
+.goodResultsLongest {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.text-goodResultsActually,
+.text-goodResultsLongest {
+  color: gray;
+  opacity: .8;
+  margin: 0;
+  font-size: 1rem;
+}
+
+
+.text-goodResultsActually .timeText,
+.text-goodResultsLongest .timeText {
+  opacity: 1;
+}
+
+.totalRecord {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+}
+
+.totalRecord p {
+  font-size: 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.totalRecord .container-item {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.text-totalRecord {
+  margin-bottom: 12px!important;
+}
